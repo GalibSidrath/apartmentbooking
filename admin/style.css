@@ -1,0 +1,216 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.admin-header {
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.admin-header .navbar {
+    padding: 15px 0;
+}
+
+.admin-header .navbar-brand {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.admin-header .navbar-nav .nav-link {
+    font-size: 16px;
+    margin: 0 12px;
+    color: #333;
+    font-weight: 500;
+}
+
+.admin-header .navbar-nav .nav-link:hover {
+    color: #8e44ad;
+}
+
+.admin-header .navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.admin-header .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="%23000" d="M2 4.5h12v1H2v-1zm0 4h12v1H2v-1zm0 4h12v1H2v-1z"/></svg>');
+}
+
+.admin-header .d-flex {
+    margin-left: auto;
+}
+
+.admin-header .btn-outline-danger {
+    border-color: #dc3545;
+    color: #dc3545;
+}
+
+.admin-header .btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+
+.admin-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #333;
+}
+
+.admin-card .card-body {
+    padding: 20px;
+}
+
+.admin-card .card-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.admin-card:hover {
+    background-color: #f8f9fa;
+    text-decoration: none;
+}
+
+.admin-card:hover .card-title {
+    color: #8e44ad;
+}
+
+/* You can add custom styles here if needed */
+
+table.dataTable {
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0.5em 1em;
+    margin: 0;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    margin-left: 0.5em;
+}
+
+
+/* Add a new apartment page  */
+
+/* Custom styles for Add New Apartment page */
+
+.apartment-form-heading {
+    font-size: 1.75rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.apartment-form {
+    max-width: 600px;
+}
+
+.apartment-form-control {
+    border-radius: 0.25rem;
+    border-color: #ced4da;
+    box-shadow: none;
+    font-size: 1rem;
+}
+
+.apartment-form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+.apartment-submit-btn {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 0.25rem;
+}
+
+.apartment-submit-btn:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+
+
+/* Add new Admin page  */
+
+
+/* Custom styles for Add New Admin page */
+
+.admin-form-heading {
+    font-size: 1.75rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.admin-form {
+    max-width: 600px;
+}
+
+.admin-form-control {
+    border-radius: 0.25rem;
+    border-color: #ced4da;
+    box-shadow: none;
+    font-size: 1rem;
+}
+
+.admin-form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+.admin-submit-btn {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 0.25rem;
+}
+
+.admin-submit-btn:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+
+
+/* Custom styles for Messages page */
+
+.messages-heading {
+    font-size: 1.75rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+#messagesTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#messagesTable th, #messagesTable td {
+    padding: 1rem;
+    text-align: left;
+}
+
+#messagesTable th {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+#messagesTable td {
+    border-bottom: 1px solid #ddd;
+}
+
+#messagesTable tr:hover {
+    background-color: #f1f1f1;
+}
